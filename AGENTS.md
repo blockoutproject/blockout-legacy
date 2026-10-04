@@ -26,6 +26,7 @@
 ## Repository inputs
 
 - Product sources: `specs`, `docs/product`, `docs/architecture`. Read `docs/architecture/mobile-and-identity-architecture-v1.md` as historical identity/session evidence and for maintenance of V1; it does not select V2 topology, frameworks or provider adapters. V2 identity and authorization work follows accepted specs, continuity constraints and approved technical plans.
+- V2 target inputs: `docs/architecture/architecture-v2.md`, `blockout-domain-model-v2.md`, `v1-v2-transition-architecture.md` and `v2-planning-boundaries.md` in that directory. They constrain feature planning; they do not authorize replacing V1 runtimes, executing production migration or bypassing approved feature plans/tasks.
 - Mobile: `apps/frontend/mobile`; routes: `apps/frontend/mobile/src/app`; supported platforms: iOS and Android. Feature/shared locations follow the accepted scope and actual source structure.
 - Backend reactor: `apps/backend`. Scrapers: `apps/backend/club-scraper` and `apps/backend/competition-scraper`.
 - Contracts: `libs/shared/contracts/specs/source`; shared schemas: its `shared/schemas` directory. Generated clients use configured Java `target` outputs, `libs/shared/python-contract-clients` and the mobile Orval configuration.
